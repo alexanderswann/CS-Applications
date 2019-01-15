@@ -1,3 +1,12 @@
+# Monday, January 15, 2019
+# CS Applications
+#
+#     basic operators
+#         + , - , * , / , **(raise to power)
+#     shell
+#
+
+
 num1 = 5
 num2 = 6 - 2
 num3 = num1 * num2
