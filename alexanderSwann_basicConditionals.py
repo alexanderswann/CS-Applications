@@ -2,7 +2,7 @@
 #Friday, January 25, 2019
 #CS Applications
 
-#alexanderSwann_basicConditionals
+
 
 word = input("Type a word ")
 number = float(input("Type a number "))
