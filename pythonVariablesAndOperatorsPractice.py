@@ -1,5 +1,8 @@
-# Monday, January 15, 2019
-# CS Applications
+#Alexander Swann
+#Monday, January 15, 2019
+#CS Applications
+
+#pythonVariablesAndOperatorsPractice
 
 num1 = 5
 num2 = 6 - 2

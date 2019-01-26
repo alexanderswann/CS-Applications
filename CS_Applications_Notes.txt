@@ -1,0 +1,144 @@
+Alexander Swann
+CS Applications
+
+Monday, January 15, 2019
+  basic operators
+      + , - , * , / , **(raise to power)
+  idle is a python shell and it is where the code runs
+  advanced operators
+      // - integer division/floor division
+        how many times something goes into something else
+          5//2 returns 2
+      % - modulus
+        used to get remainder after division
+          5%2 returns 1
+  more advanced operators
+    use ~ import math
+      ceiling
+        math.ceil()
+      square root
+        math.sqrt()
+
+Thursday, January 17, 2019
+    how integers and floats interact
+      int / int == float
+    built-in functions
+      print()
+      int()
+        converts to integer by truncating
+      round()
+      type()
+        tells you the type of your input
+  In Class Assignment 1/17 - Math Race
+    create math challenges for the
+    other half of the class to
+    complete as fast as possible while
+    we solve theirs
+
+    file path - CS-Applications\alexanderSwann_basicConditionals.py
+
+Friday, January 18, 2019
+    datatypes
+      anything that the computer uses and recognizes
+        ints
+        floats
+        strings
+          characters enclosed in double or single quotations
+              double and single quotes so you can have a single quote in a string
+          concatenation is the adding of strings together
+        Booleans
+          either True or False
+            not true and false need to be uppercase
+          None if nothing - like null in java
+    comparison operators
+      always gives either true or false
+        >, <, >=, <=, ==, !=
+        strings have to match exactly
+        numbers just have to match numerically
+        letters are assigned to numbers lowercase are bigger than smaller
+    recursion
+      calling a function from inside the same function
+        example in JS
+          function recursion(){
+            recursion();
+          }
+
+Wednesday, January 23, 2019
+    comparison operators cont.
+      in
+        "c" in "cat"
+          True
+        "at" in "cat"
+          True
+        "ct" in "cat"
+          False
+      logical operators
+        and, or, not, xor, nand
+          xor
+            t + t = f
+            f + f = f
+            f + t = t
+            t + f = t
+Thursday, January 24, 2019
+    boolean expressions
+      if statement
+        if Boolean expression:
+          #block of code here
+          do the stuff
+    In Class assignment 1/24 - Income Tax Calculator
+      find the amount of income tax a person with
+      a certain income would pay
+      file path - CS-Applications\incomeTaxBooleanPractice.py
+
+Friday, January 25, 2019
+    In Class Assignment 1/25 - Basic Conditionals
+
+      In a comment at the top of your code, write your name and the date.
+      For files that you submit in this class, I require you to name your files in the following format:
+      FirstLast_AssignmentName
+      The assignment name will be at the top of the assignment description. Use camel case for multiple words, so this assignment should be BasicConditionals.
+      When you are finished, submit your python file in Google Classroom. Upload the file under the assignment page for this assignment.
+
+
+      Create two variables at the top of your script, number and word, and assign them to an arbitrary integer and string. You should update them to test if your conditionals described below give the correct output.
+
+      Write if statements for each of the following problems below, and if the statement’s condition evaluates to True have your program print out the output given.
+
+      1) if word contains the substring ‘sh’: output → ‘Has sh’
+
+      2) if number is not a multiple of seven: output → ‘Not divisible by 7’
+
+      3) if number is in the range 90-100, inclusive: output → ‘You got an A!’
+
+      4) if word has either ‘f’ or ‘g’ but not both: output → ‘Contains either an f or a g’
+
+      5) if word has no vowels (just aeiou, not y): output → ‘Possibly not a real word’
+
+      The ord() function accepts a string of a single character as input and returns what integer it corresponds to in the ASCII Table. For example ord(‘!’) returns 33.
+
+      6) Create a variable called character and assign it to a string of a single character. Using the ord() function and an if statement, determine if that character is a capital letter.
+
+      7) Without using any logical operators (and, or, not), have your program print out ‘Bazinga!’ if number is both a multiple of three and an even number.
+
+      8) Now, instead of you as the programmer choosing to assign values to number and word, get input from the user to assign values to those variables.
+
+      In Python, you can use the input(‘...’) function to get input from the user of your program.
+      The string that the function has as an argument will be the prompt that the user sees.
+      Make sure you give the user enough information so that they know what they should be entering.
+      The input function always returns a string, even if a number is entered. What function that we talked about before should you use to convert the string to an integer?
+
+      In a comment at the end of your file, explain what user input is and why this is important in programming.
+      file path - CS-Applications\alexanderSwann_basicConditionals.py
+
+      flags
+        using a True or False to see if a condition is met
+          ex. checks if a number is divisible by 3 and is even
+          bazinga = True
+
+          if not number % 3 == 0:
+            bazinga = False
+          if not number % 2 == 0:
+            bazinga = False
+
+          if bazinga:
+            print('Bazinga!')

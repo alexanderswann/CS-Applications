@@ -1,7 +1,10 @@
-#boolean practice
-#tax bracket
+#Alexander Swann
+#Thursday, January 24, 2019
+#CS Applications
 
-income = 500000
+#incomeTaxBooleanPractice
+
+income = float(input("Type your income "))
 
 if income >= 0 and income <= 9525:
     tax=.10*income
@@ -15,4 +18,4 @@ if income >= 38701 and income <= 82500:
 if income > 82501:
     tax= 14089.50 + .24*(income - 82500)
 
-print ('tax is $' + str(tax))
+print ('the tax on $' + '{:,}'.format(income)+' is $'+ '{:,}'.format(tax))
