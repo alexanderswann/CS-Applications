@@ -2,7 +2,7 @@
 #Wednesday, January 30, 2019
 #CS Applications
 
-#ifStatementsExercises
+#alexanderSwann_MoreConditionals
 
 num = float(input('enter a number here: '))
 shape = float(input('enter a number that is between 3 and 10 here: '))
@@ -29,37 +29,25 @@ elif 'y' in char:
 else:
     print('the letter ' +char+' is a consonant')
 
+shapes = ["triangle","quadrilateral","pentagon","hexagon","heptagon","octagon","nonagon","decagon"]
 if shape > 10:
     print("the shape is out of the range you should enter a number less than 10")
-    print(shape+"-gon")
-elif shape ==10:
-    print("the shape is a decagon")
-elif shape ==9:
-    print("the shape is a nonagon")
-elif shape ==8:
-    print("the shape is a octagon")
-elif shape ==7:
-    print("the shape is a heptagon")
-elif shape ==6:
-    print("the shape is a hexagon")
-elif shape ==5:
-    print("the shape is a pentagon")
-elif shape ==4:
-    print("the shape is a quadrilateral")
-elif shape ==3:
-    print("the shape is a triangle")
-else:
+elif shape <3:
     print("the shape is out of the range you should enter a number less than 10 and more than 2")
     print("the number that you entered can't be a shape")
+else:
+    print(shapes[int(shape-3)])
+
 
 if month == "January" or month == "March" or month == "May" or month == "July" or month == "August" or month == "October" or month ==  "December":
     print("There are 31 days in " + month)
 elif month == "February":
     print("there are 28 or 29 days in " + month)
-else:
+elif month == "April" or month == "June" or month == "September" or month == "November":
     print("there are 30 days in " + month)
+else:
+    print("make sure that the month you typed in is spelled right and starts with a capital letter")
 
-# if "jan" in or "mar" in or "may" in or "jul" in or "aug" in or "oct" in
 
 if db > 130:
     print("the sound is louder than a jackhammer")

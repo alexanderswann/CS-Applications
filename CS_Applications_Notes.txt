@@ -35,7 +35,7 @@ Thursday, January 17, 2019
     complete as fast as possible while
     we solve theirs
 
-    file path - CS-Applications\alexanderSwann_basicConditionals.py
+    project file path - CS-Applications\alexanderSwann_basicConditionals.py
 
 Friday, January 18, 2019
     datatypes
@@ -88,7 +88,7 @@ Thursday, January 24, 2019
     In Class assignment 1/24 - Income Tax Calculator
       find the amount of income tax a person with
       a certain income would pay
-      file path - CS-Applications\incomeTaxBooleanPractice.py
+      project file path - CS-Applications\incomeTaxBooleanPractice.py
 
 Friday, January 25, 2019
     In Class Assignment 1/25 - Basic Conditionals
@@ -142,3 +142,26 @@ Friday, January 25, 2019
 
           if bazinga:
             print('Bazinga!')
+
+Wednesday, January 30, 2019
+    In Class Assignment 1/30 - More Conditionals
+      -Complete the following five problems on the attached pdf: 34, 35, 38, 39, 45
+      -Each problem requires you to get input from the user
+      -You must complete each problem using only one 'if family', meaning you can only use a single 'if' statement, as many 'elif' statements as you want, and zero or one else statements
+      pdf file path - CS-Applications\MoreConditionals.pdf
+      project file path - CS-Applications\alexanderSwann_MoreConditionals.py
+
+  -Remember to save the file according to the naming scheme required for this class: FirstLast_AssignmentName (MoreConditionals is this assignment title)
+  -Also remember to put your name and date in a comment at the top of your code
+
+Thursday, January 31, 2019
+  functions
+    example of a function
+      def functionName(parameter):
+        body of the function
+        return value
+    f(x) = 2x + 3
+    def math(num):
+      total = 2 * num + 3
+      return total
+    project file path - CS-Applications\functionsPractice.py
