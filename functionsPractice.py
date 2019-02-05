@@ -20,15 +20,7 @@ result2 = math3(x,y,z)
 print(result2)
 
 def calculateGPA (g1,g2,g3):
-    if (g1+g2+g3)/3 >= 90:
-        gpa = 4
-    elif (g1+g2+g3)/3 >= 80:
-        gpa =3
-    elif (g1+g2+g3)/3 >= 70:
-        gpa = 2
-    elif (g1+g2+g3)/3 < 70:
-        gpa = 1
+    gpa = (g1+g2+g3)/75
     return gpa
-
 result3 = calculateGPA (x,y,z)
 print(result3)
