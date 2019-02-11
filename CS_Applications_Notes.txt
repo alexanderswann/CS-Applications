@@ -165,3 +165,27 @@ Thursday, January 31, 2019
       total = 2 * num + 3
       return total
     project file path - CS-Applications\functionsPractice.py
+
+Monday, February 4, 2019
+  class kahoot game
+Tuesday, February 5, 2019
+  class kahoot game
+Wednesday, February 6, 2019
+  class kahoot game
+Thursday, February 7, 2019
+  class kahoot game
+
+Monday, February 11, 2019
+  Iteration
+    repeating blocks of code
+      for loop
+        ex. for element in sequence
+              repeat this block
+            aList = [3,-2,1,2]
+            for item in aList
+              print(item*2)
+            item is a variables that gets assigned to the elements in aList one at a time, for each loop through the block
+    built-in functions such as the print function also have builtin parameters
+      print(x, end="")
+        what ever is specified in end is what will happen after something prints
+      while loop
