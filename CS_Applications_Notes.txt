@@ -197,4 +197,12 @@ Monday, February 11, 2019
       print(a)
         there is no ++ in python
     get a phrase of input from the user
-      while loop
+      range function
+        explain the range function
+        In your own words, describe to me what the output of the range() function is with 1, 2, and 3 arguments.
+          1 argument: with one argument the range function count from 0 to one minus the value of the first argument while counting by one
+          2 arguments: with two arguments the range function count from the first argument to the second argument minus one while counting by one
+          3 arguments: with two arguments the range function count from the first argument to the second argument minus one while counting by the value of the third argument
+Tuesday, February 12, 2019
+  range function and loops practice
+  project file path - CS-Applications\alexanderSwann_loopsPractice.py
