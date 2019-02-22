@@ -206,3 +206,25 @@ Monday, February 11, 2019
 Tuesday, February 12, 2019
   range function and loops practice
   project file path - CS-Applications\alexanderSwann_loopsPractice.py
+Wednesday, February 20, 2019
+    function that returns a list of only even numbers form another list
+    def getEvens(aList):
+        evens = []
+        for i in range(len(aList)):
+            if aList[i] % 2 == 0:
+                evens.append(aList[i])
+        return print(evens)
+    getEvens([3,4,4,2,5,6,45,7,65,7,66])
+
+    def getEvens(aList):
+        evens = []
+        for num in aList:
+            if num % 2 == 0:
+                evens.append(num)
+        return print(evens)
+    getEvens([3,4,4,2,5,6,45,7,65,7,66])
+
+    the differnece between one and two is that in the first one i is assigned to a numbers
+Friday, February 22, 2019
+  in class work - String building and parsing lists
+  project file path - CS-Applications\stringBuildingAndParsingLists.py
