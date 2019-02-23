@@ -285,30 +285,38 @@
 #
 # makeID([['Alexander','Swann', '15', 'Student'], ['Jahseh', 'Onfroy', '20', 'rapper'], ['Timothy', 'Hornor', '89', 'Army'], ['Gekyume','Onfroy','3 weeks', 'religious figure']])
 
-def nbaPlayerStats():
-    import os, ssl
+def nbaPlayerId():
+    import os, ssl, json
     if (not os.environ.get('PYTHONHTTPSVERIFY', '') and getattr(ssl, '_create_unverified_context', None)):
         ssl._create_default_https_context = ssl._create_unverified_context
     import urllib.request
-    playerFirst = 'Lebron'
-    playerLast = 'James'
+    playerFirst = 'mo' #input('enter a current nba players first name ' )
+    playerLast = 'bamba'#input('enter a current nba players last name ' )
     url = 'http://www.nba.com/players/'+ playerFirst+ '/' + playerLast
     x = urllib.request.urlopen(url)
-    xx = str(x.read())
+    xx =  str(x.read())
     playerid = ''
     for i in range(len(xx)):
         if xx[i] == 'd' and xx[i+1] == 'a' and xx[i+2] == 't' and xx[i+3] == 'a' and xx[i+4] == '-' and xx[i+5] == 'p':
             while xx[i+15] != '"':
                 playerid += xx[i+15]
                 i +=1
+            dataurl = 'https://data.nba.net/prod/v1/2018/players/' + playerid + '_profile.json'
+            datax = urllib.request.urlopen(dataurl)
+            dataxx =  str(datax.read())
 
-    # statfile = open('stats.txt', 'w')
-    # statfile.write(str(xx))
-    # statfile.close()
+            jsondata = dataxx[2:len(dataxx)-1:]
 
-    return playerid
+            points = jsondata#jsondata['league']['standard']['stats']['careerSummary']['blocks']
 
-# print(nbaPlayerStats())
+            statfile = open('stats.json', 'w')
+            statfile.write(dataxx[2:len(dataxx)-1:])
+            # statfile.write(jsondata)
+            statfile.close()
+            return points
+print(nbaPlayerId())
+
+
 # def fname(xx):
 #     playerid = ''
 #     for i in range(len(xx)):
