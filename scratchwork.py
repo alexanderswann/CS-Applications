@@ -284,3 +284,42 @@
 #         idfile.close()
 #
 # makeID([['Alexander','Swann', '15', 'Student'], ['Jahseh', 'Onfroy', '20', 'rapper'], ['Timothy', 'Hornor', '89', 'Army'], ['Gekyume','Onfroy','3 weeks', 'religious figure']])
+
+def nbaPlayerStats():
+    import os, ssl
+    if (not os.environ.get('PYTHONHTTPSVERIFY', '') and getattr(ssl, '_create_unverified_context', None)):
+        ssl._create_default_https_context = ssl._create_unverified_context
+    import urllib.request
+    playerFirst = 'Lebron'
+    playerLast = 'James'
+    url = 'http://www.nba.com/players/'+ playerFirst+ '/' + playerLast
+    x = urllib.request.urlopen(url)
+    xx = str(x.read())
+    playerid = ''
+    for i in range(len(xx)):
+        if xx[i] == 'd' and xx[i+1] == 'a' and xx[i+2] == 't' and xx[i+3] == 'a' and xx[i+4] == '-' and xx[i+5] == 'p':
+            while xx[i+15] != '"':
+                playerid += xx[i+15]
+                i +=1
+
+    # statfile = open('stats.txt', 'w')
+    # statfile.write(str(xx))
+    # statfile.close()
+
+    return playerid
+
+# print(nbaPlayerStats())
+# def fname(xx):
+#     playerid = ''
+#     for i in range(len(xx)):
+#         if xx[i] == 'd' and xx[i+1] == 'a' and xx[i+2] == 't' and xx[i+3] == 'a' and xx[i+4] == '-' and xx[i+5] == 'p':
+#             while xx[i+15] != '"':
+#                 playerid += xx[i+15]
+#                 i +=1
+#     return x
+# print(fname('isdfjlsdfhjkasdhfjlashdfkjlhasdjlhsafj" id="player-tabs-Stats"><player-stats-season data-playerid="2544"></player-stats-season><player-stats-care'))
+
+# if 'isdf' in 'isdfjlsdfhjkasdhfjlashdfkjlhasdjlhsafjdata-p34567890987654hlkjsdafhjlkhdgjkhadkjhweukgfkjgyus':
+#     print('yuh')
+# else:
+#     print('nah')
