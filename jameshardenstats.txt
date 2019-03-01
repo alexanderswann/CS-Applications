@@ -1,0 +1,10 @@
+james harden career stats:
+Total Points 1716
+Three Point % 36
+Field Goal % 45.7
+Points Per Game 6.5
+Rebounds Per Game 3.1
+Assists Per Game 0.9
+Minutes Per Game 20.7
+Blocks Per Game 0.3
+Total Games Played 265

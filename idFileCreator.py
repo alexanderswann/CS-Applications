@@ -10,4 +10,4 @@ def makeID(infoList):
         idfile.write('Name: ' + infoList[i][1] + ', ' + infoList[i][0]+'\nAge: ' + infoList[i][2]+ '\nOccupation: ' + infoList[i][3])
         idfile.close()
 
-makeID([['Alexander','Swann', '15', 'Student'], ['Jahseh', 'Onfroy', '20', 'rapper'], ['Timothy', 'Hornor', '89', 'Army'], ['Gekyume','Onfroy','3 weeks', 'religious figure']])
+makeID([['Alexander','Swann', '15', 'Student'], ['Jahseh', 'Onfroy', '20', 'rapper'], ['Timothy', 'Hornor', 'unknown', 'Army'], ['Gekyume','Onfroy','3 weeks', 'religious figure']])
