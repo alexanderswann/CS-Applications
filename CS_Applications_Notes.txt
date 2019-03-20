@@ -228,3 +228,6 @@ Wednesday, February 20, 2019
 Friday, February 22, 2019
   in class work - String building and parsing lists
   project file path - CS-Applications\stringBuildingAndParsingLists.py
+Monday, March 19, 2019
+  .strip()
+  .split()

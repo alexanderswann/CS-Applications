@@ -1,0 +1,10 @@
+kevin ware career stats:
+Total Points 22695
+Three Point % 38.2
+Field Goal % 49.2
+Points Per Game 27.1
+Rebounds Per Game 7.1
+Assists Per Game 4.1
+Minutes Per Game 37
+Blocks Per Game 1.1
+Total Games Played 836

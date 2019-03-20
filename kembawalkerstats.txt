@@ -1,0 +1,10 @@
+kemba walker career stats:
+Total Points 11630
+Three Point % 35.8
+Field Goal % 41.7
+Points Per Game 19.6
+Rebounds Per Game 3.8
+Assists Per Game 5.4
+Minutes Per Game 34
+Blocks Per Game 0.4
+Total Games Played 592

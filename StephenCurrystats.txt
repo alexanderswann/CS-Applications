@@ -1,0 +1,10 @@
+Stephen Curry career stats:
+Total Points 15994
+Three Point % 43.5
+Field Goal % 47.7
+Points Per Game 23.5
+Rebounds Per Game 4.5
+Assists Per Game 6.6
+Minutes Per Game 34.4
+Blocks Per Game 0.2
+Total Games Played 681

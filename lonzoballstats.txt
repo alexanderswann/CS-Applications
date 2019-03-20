@@ -1,0 +1,10 @@
+lonzo ball career stats:
+Total Points 993
+Three Point % 31.5
+Field Goal % 38
+Points Per Game 10
+Rebounds Per Game 6.2
+Assists Per Game 6.4
+Minutes Per Game 32.3
+Blocks Per Game 0.6
+Total Games Played 99

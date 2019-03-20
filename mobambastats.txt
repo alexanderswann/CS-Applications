@@ -1,0 +1,10 @@
+mo bamba career stats:
+Total Points 292
+Three Point % 30
+Field Goal % 48.1
+Points Per Game 6.2
+Rebounds Per Game 5
+Assists Per Game 0.8
+Minutes Per Game 16.3
+Blocks Per Game 1.4
+Total Games Played 47

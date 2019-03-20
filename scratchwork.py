@@ -371,3 +371,35 @@
 #         return 1
 #     return tri(x-1)+x
 # print(tri(5))
+
+
+f = open("sonnet.txt", "r")
+text = f.read().split()
+text2 = f.read()
+f.close()
+i = 0
+s =1
+l=1
+short = "Short Words \n"
+long = "Long Words \n"
+for text[i] in text:
+    if len(text[i].strip(";:,.?")) <=3:
+        short = short + str(s) + ". " + str(text[i].strip(";:,.?")) + "\n"
+        s +=1
+    else:
+        long = long + str(l) + ". " +str(text[i].strip(";:,.?")) + "\n"
+        l+=1
+    i+=1
+fileout = open('sonnetShortsAndLongs.txt', 'w')
+fileout.write(short + "\n-------------------------------\n" +long)
+fileout.close()
+
+countdict = {'s':'2'}
+
+for text[i] in text:
+    if countdict[str(text[i])]:
+        countdict[str(text[i])] += 1
+    else:
+        countdict[str(text[i])] = 1
+
+print(countdict)

@@ -1,0 +1,10 @@
+jj redick career stats:
+Total Points 10509
+Three Point % 41.2
+Field Goal % 44.8
+Points Per Game 12.8
+Rebounds Per Game 2
+Assists Per Game 2
+Minutes Per Game 25.8
+Blocks Per Game 0.1
+Total Games Played 821
