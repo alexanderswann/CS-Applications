@@ -41,8 +41,8 @@
 #challenge
 
 def add(x, y):
-    num1 = list(str('{0:01280b}'.format(x)[::-1])) #https://stackoverflow.com/questions/10411085/converting-integer-to-binary-in-python
-    num2 = list(str('{0:01280b}'.format(y)[::-1])) #https://stackoverflow.com/questions/931092/reverse-a-string-in-python
+    num1 = list(str('{0:012080b}'.format(x)[::-1])) #https://stackoverflow.com/questions/10411085/converting-integer-to-binary-in-python
+    num2 = list(str('{0:012080b}'.format(y)[::-1])) #https://stackoverflow.com/questions/931092/reverse-a-string-in-python
     carry = [0]
     answer = []
 
@@ -73,4 +73,4 @@ def exp(x,y):
         total = mult(total, x)
     return(total)
 
-print(add(127,15), mult(5,7), exp(5,89))
+print(exp(5,80005))
