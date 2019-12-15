@@ -1,10 +1,10 @@
 trae young career stats:
-Total Points 1105
-Three Point % 33
-Field Goal % 41
-Points Per Game 17.8
-Rebounds Per Game 3.3
-Assists Per Game 7.7
-Minutes Per Game 30.6
+Total Points 1549
+Three Point % 32.4
+Field Goal % 41.8
+Points Per Game 19.1
+Rebounds Per Game 3.7
+Assists Per Game 8.1
+Minutes Per Game 30.9
 Blocks Per Game 0.2
-Total Games Played 62
+Total Games Played 81

@@ -1,10 +1,10 @@
 luka doncic career stats:
-Total Points 1194
-Three Point % 35.3
-Field Goal % 43.4
-Points Per Game 20.9
-Rebounds Per Game 7.3
-Assists Per Game 5.7
+Total Points 1526
+Three Point % 32.7
+Field Goal % 42.7
+Points Per Game 21.2
+Rebounds Per Game 7.8
+Assists Per Game 6
 Minutes Per Game 32.2
-Blocks Per Game 0.3
-Total Games Played 57
+Blocks Per Game 0.4
+Total Games Played 72
