@@ -1,0 +1,10 @@
+seth curry career stats:
+Total Points 2228
+Three Point % 43
+Field Goal % 46.6
+Points Per Game 9.5
+Rebounds Per Game 1.9
+Assists Per Game 1.7
+Minutes Per Game 21.8
+Blocks Per Game 0.1
+Total Games Played 234

@@ -14,7 +14,7 @@ def nbaPlayerId():
             while xx[i+15] != '"':
                 playerid += xx[i+15]
                 i +=1
-            dataurl = 'https://data.nba.net/prod/v1/2018/players/' + playerid + '_profile.json'
+            dataurl = 'https://data.nba.net/prod/v1/2019/players/' + playerid + '_profile.json'
             datax = urllib.request.urlopen(dataurl)
             dataxx =  str(datax.read())
 
